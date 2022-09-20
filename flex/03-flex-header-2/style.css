@@ -43,11 +43,13 @@ a {
   color: rebeccapurple;
 }
 
-ul {
-  list-style-type: none;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
-.header {
+ul {
   display: flex;
   margin: 0;
   padding: 0;
